@@ -61,7 +61,7 @@ def save_file(text):
         file.write(text)
 	# Code ends here
      print()
-        close file()
+      
 	print(f'File saved in directory {fname}')
 
 
