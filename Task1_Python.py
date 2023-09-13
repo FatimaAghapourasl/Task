@@ -28,6 +28,7 @@ def get_page():
 	res.raise_for_status()
 	soup = BeautifulSoup(res.text, 'html.parser')
 	return soup
+print()
 
 # function to remove all the html tags and replace some with specific strings
 def clean(text):
